@@ -13,8 +13,8 @@ makeCacheMatrix <- function(x = matrix()) {
 
 inv <- NULL 
 ##initially sets the value to NULL prior to user setting a value. 
-##This is where the inverse of the matrix is stored.
-set <- function(y) {
+
+set <- function(y) { ##This is where the inverse of the matrix is stored.
   x <<- y
   inv <<- NULL
 }
